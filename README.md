@@ -25,7 +25,7 @@ WEB:<br/>
 | endDate |(Query) Belirlenen tarihteki ve ondan önceki bütün kayıtları getir  |
 
 ## Uygulama Görüntüsü (React js)
-![Resim](https://github.com/ferdiozer/earthquake/deprem.jpg) <br/>
+![Resim](https://raw.githubusercontent.com/ferdiozer/earthquake/main/deprem.jpg) <br/>
 
 
 ## Local Bilgisayarda Kurulum
