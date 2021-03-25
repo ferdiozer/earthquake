@@ -40,7 +40,7 @@ Bilgisayarınızda node js yüklü değilde yükleyiniz<br/>
 
 3-) Son API
 ```npm start```
-> **ADIM-3 :** npm start  --> Proje http://localhost:3070
+> **ADIM-3 :** npm start  --> Proje http://localhost:3070/api
 
 3-) Son WEB
 ```npm start```
@@ -56,7 +56,7 @@ Ferdi Özer
 > **GITHUB :** https://github.com/ferdiozer
 
 ## Destekleyenler
-NKU (Namık Kemal Üniversitesi)
+NKU (Namık Kemal Üniversitesi - Çorlu Mühendislik Fakültesi)
 <br/>
 Piyanos Software
 <br/>
