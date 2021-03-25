@@ -1,0 +1,32 @@
+{
+  "name": "earthquake",
+  "version": "1.0.0",
+  "description": "Earthquake in Turkey",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "earthquake",
+    "nodejs",
+    "js"
+  ],
+  "author": {
+    "name": "Piyanos Software",
+    "url": "https://www.piyanos.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
