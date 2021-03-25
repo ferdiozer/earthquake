@@ -7,26 +7,28 @@
              \/           \/                  \/    \/       
 */
 
-var app = require('express')();
+var express = require('express');
+var app = express();
 var http = require('http').createServer(app);
 var io = require('socket.io')(http);
 
-var ejs = require('ejs');
+var path = require('path');
+
 const cors = require('cors');
 const request = require("request");
 const cheerio = require("cheerio");
 
 
+
+const PORT = process.env.PORT || 3070;
+
 app.use(cors({
     exposedHeaders: "*"
 }));
 
-app.engine('.ejs', ejs.__express);
-app.set('views', __dirname + '/views/');
 
-app.get("/", function (req, res) {
-    res.render("index.ejs");
-});
+const wwwPath = path.join(__dirname, 'www');
+app.use('/', express.static(wwwPath));
 
 app.get('/api', function (req, res) {
     var items = [];
@@ -100,11 +102,12 @@ app.get('/api', function (req, res) {
     });
 });
 
+
 io.on('connection', function (socket) {
     console.log('User connected');
 });
 
-const PORT = process.env.PORT || 3070;
+
 
 http.listen(PORT, function () {
     console.log('The app is running...');
