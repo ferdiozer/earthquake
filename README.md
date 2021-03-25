@@ -29,7 +29,7 @@ WEB:<br/>
 
 
 ## Local Bilgisayarda Kurulum
-### Bilgisayarınızda node js yüklü değilde yükleyiniz
+Bilgisayarınızda node js yüklü değilde yükleyiniz<br/>
 1-) Depoyu Yerel Bilgisayarınıza İndirin. 
 > **ADIM-1 :** 
 ```git clone https://github.com/ferdiozer/earthquake```
