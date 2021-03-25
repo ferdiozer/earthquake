@@ -38,13 +38,13 @@ Bilgisayarınızda node js yüklü değilde yükleyiniz<br/>
 > **ADIM-2 :** api ve web için ayrı ayrı yapınız
 ```npm install```
 
-3-) Son API
+3-) Son API (Server)
 ```npm start```
-> **ADIM-3 :** npm start  --> Proje http://localhost:3070/api
+> **ADIM-3 :**  --> Proje http://localhost:3070/api
 
-3-) Son WEB
+3-) Son WEB (Client)
 ```npm start```
-> **ADIM-3 :** npm start  --> Proje http://localhost:3000
+> **ADIM-3.1 :**  --> Proje http://localhost:3000
 
 ## Veri Kaynağı
 Veriler BOĞAZİÇİ ÜNİVERSİTESİ KANDİLLİ RASATHANESİ VE DEPREM ARAŞTIRMA ENSTİTÜSÜ internet sitesi üzerinden sağlanmaktadır. <br />
