@@ -17,7 +17,7 @@ WEB:<br/>
 > **API :** https://deprem.piyanos.com/api
 
 ## Api Kullanım
-|   Başlık     | Açıklama   | 
+|   Başlık     | Açıklama   |
 | ------------- |:-------------:|
 | /api      |(Endpoint) Türkiye'de gerçekleşen deprem bilgisini getirir. |
 | date| (Query), date değeri gönderildiğinde o tarihteki verileri getirir   | 
@@ -26,6 +26,7 @@ WEB:<br/>
 
 ## Uygulama Görüntüsü (React js)
 ![Resim](https://raw.githubusercontent.com/ferdiozer/earthquake/main/deprem.jpg) <br/>
+![Resim](https://raw.githubusercontent.com/ferdiozer/earthquake/main/deprem_mobil.png) <br/>
 
 
 ## Local Bilgisayarda Kurulum
@@ -49,6 +50,11 @@ Bilgisayarınızda node js yüklü değilde yükleyiniz<br/>
 ## Veri Kaynağı
 Veriler BOĞAZİÇİ ÜNİVERSİTESİ KANDİLLİ RASATHANESİ VE DEPREM ARAŞTIRMA ENSTİTÜSÜ internet sitesi üzerinden sağlanmaktadır. <br />
 Web siteye gitmek için : http://www.koeri.boun.edu.tr/scripts/lst0.asp
+
+## Lisans
+MIT License
+<br/>
+> **MIT :** https://github.com/ferdiozer/earthquake/blob/main/LICENSE
 
 ## Geliştiriciler
 Ferdi Özer
