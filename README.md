@@ -39,7 +39,8 @@ Bilgisayarınızda node js yüklü değilde yükleyiniz<br/>
 > **ADIM-2 :** api ve web için ayrı ayrı yapınız
 ```npm install```
 
-3-) Son
+3-) Son (Testing)
+<br/>
 ```npm start```
 > **SERVER :**  --> Proje http://localhost:3070/api
 
