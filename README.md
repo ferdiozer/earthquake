@@ -5,24 +5,34 @@ Türkiye'de gerçekleşen son 500 deprem bilgisinin Kandilli Rasathanesi'nin int
 
 Uuygulama özellikleri<br/>
 API:<br/>
--JSON veri yapısı
--Node Js
--Apiyi uygulamalarınızda istediğiniz gibi kullanabilirsiniz.
+- JSON veri yapısı
+- Node Js
+- Socket
+- Apiyi uygulamalarınızda istediğiniz gibi kullanabilirsiniz.<br/>
 WEB:<br/>
--React Js
--Google Map
--Animasyon
--Uygulamalarınıza kolayca entegre edilebilir
+- React Js
+- Google Map
+- Animasyon
+- Uygulamalarınıza kolayca entegre edilebilir
+<br/>
+MOBILE APP : feature...
+<br/>
 
 > **API :** https://deprem.piyanos.com/api
 
 ## Api Kullanım
-|   Başlık     | Açıklama   |
-| ------------- |:-------------:|
-| /api      |(Endpoint) Türkiye'de gerçekleşen deprem bilgisini getirir. |
-| date| (Query), date değeri gönderildiğinde o tarihteki verileri getirir   | 
-| startDate | (Query) Belirlenen tarihteki ve ondan sonraki bütün kayıtları getir  |
-| endDate |(Query) Belirlenen tarihteki ve ondan önceki bütün kayıtları getir  |
+| Başlık    |                              Açıklama                               |
+| --------- | :-----------------------------------------------------------------: |
+| /api      |     (Endpoint) Türkiye'de gerçekleşen deprem bilgisini getirir.     |
+| date      |  (Query), date değeri gönderildiğinde o tarihteki verileri getirir  |
+| startDate | (Query) Belirlenen tarihteki ve ondan sonraki bütün kayıtları getir |
+| endDate   | (Query) Belirlenen tarihteki ve ondan önceki bütün kayıtları getir  |
+
+<br/>
+<small>
+startDate,endDate(query) parametrelerini gönderirken geçerli olan global tarih formatı göndermeyi unutmayın. 
+</small>
+<br/>
 
 ## Uygulama Görüntüsü (React js)
 ![Resim](https://raw.githubusercontent.com/ferdiozer/earthquake/main/deprem.jpg) <br/>
