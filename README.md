@@ -30,7 +30,7 @@ MOBILE APP : feature...
 
 <br/>
 <small>
-startDate,endDate(query) parametrelerini gönderirken geçerli olan global tarih formatı göndermeyi unutmayın. 
+startDate,endDate ve date (query) parametrelerini gönderirken geçerli olan global tarih formatı göndermeyi unutmayın. 
 </small>
 <br/>
 
