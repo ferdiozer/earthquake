@@ -31,7 +31,7 @@ MOBILE APP : feature...
 | endDate   | (Query) Belirlenen tarihteki ve ondan önceki bütün kayıtları getir  |
 
 <br/>
-<p style="font-size: 12px">
+<p>
 startDate,endDate ve date (query) parametrelerini gönderirken geçerli olan global tarih formatı göndermeyi unutmayın. 
 </p>
 <br/>
