@@ -9,6 +9,8 @@ API:<br/>
 - Node Js
 - Socket
 - Apiyi uygulamalarınızda istediğiniz gibi kullanabilirsiniz.<br/>
+
+
 WEB:<br/>
 - React Js
 - Google Map
@@ -29,9 +31,9 @@ MOBILE APP : feature...
 | endDate   | (Query) Belirlenen tarihteki ve ondan önceki bütün kayıtları getir  |
 
 <br/>
-<small>
+<p style="font-size: 12px">
 startDate,endDate ve date (query) parametrelerini gönderirken geçerli olan global tarih formatı göndermeyi unutmayın. 
-</small>
+</p>
 <br/>
 
 ## Uygulama Görüntüsü (React js)
